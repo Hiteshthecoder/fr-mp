@@ -1,4 +1,43 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#111110"><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script><title>À propos — Les Gauchistes</title></head><body data-page="about">
-<header class="site-header"><a class="brand" href="index.html">Les Gauchistes<span class="brand-mark">✳</span></a><nav class="nav" aria-label="Navigation principale"><a href="index.html" data-i18n="navHome">Accueil</a><a class="active" href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html" data-i18n="navContact">Contact</a><label class="language"><span class="sr-only" data-i18n="languageLabel">Langue</span><select id="language-select" aria-label="Language"><option value="fr">FR</option><option value="en">EN</option><option value="pl">PL</option><option value="es">ES</option><option value="pt">PT</option></select></label></nav></header>
-<main class="inner-page about-page"><p class="eyebrow" data-i18n="aboutEyebrow">Qui sommes-nous</p><h1 data-i18n="aboutTitle">À propos de nous</h1><div class="about-layout"><div class="about-symbol" aria-hidden="true">✳</div><div><p class="about-lead" data-i18n="aboutBody">Nous nous sommes lassés des manifestations pacifiques, qui ne parvenaient pas à attirer l’attention du gouvernement ; il est donc temps de changer notre manière de manifester.</p><a class="text-link" href="index.html#collection" data-i18n="backCollection">Voir la collection <span>↗</span></a></div></div></main>
-<footer class="site-footer"><div class="footer-top"><a class="brand" href="index.html">Les Gauchistes<span class="brand-mark">✳</span></a><p data-i18n="footerCopy">Veuillez sélectionner les produits que vous souhaitez acheter et nous envoyer un message à l'adresse e-mail indiquée.</p><a class="footer-contact" href="contact.html" data-i18n="navContact">Contact</a></div><div class="footer-bottom"><span>© 2026 Les Gauchistes</span><div><a href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html" data-i18n="navContact">Contact</a></div><span data-i18n="footerNote">Fait pour les temps agités.</span></div></footer></body></html>
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111110">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>À propos — Les Gauchistes</title>
+</head>
+
+<body data-page="about">
+    <header class="site-header"><a class="brand" data-i18n="siteName" href="index.html">pour les manifestants</a>
+        <nav class="nav" aria-label="Navigation principale"><a href="index.html" data-i18n="navHome">Accueil</a><a
+                class="active" href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html"
+                data-i18n="navContact">Contact</a><label class="language"><span class="sr-only"
+                    data-i18n="languageLabel">Langue</span><select id="language-select" aria-label="Language">
+                    <option value="fr">FR</option>
+                    <option value="en">EN</option>
+                    <option value="pl">PL</option>
+                    <option value="es">ES</option>
+                    <option value="pt">PT</option>
+                </select></label></nav>
+    </header>
+    <main class="about-screen">
+        <section class="about-feature" aria-labelledby="aboutHeading">
+            <h1 data-i18n="aboutTitle" id="aboutHeading">À propos de nous</h1>
+
+            <p class="about-message" data-i18n="aboutBody">Nous nous sommes lassés des manifestations pacifiques, qui ne
+                parvenaient pas à attirer l’attention du gouvernement ; il est donc temps de changer notre manière de
+                manifester.</p>
+        </section>
+    </main>
+    <footer class="site-footer" id="aboutFooter">
+        <div class="footer-bottom">
+            <div><a href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html"
+                    data-i18n="navContact">Contact</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>

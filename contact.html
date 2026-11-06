@@ -1,4 +1,41 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#111110"><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script><title>Contact — Les Gauchistes</title></head><body data-page="contact">
-<header class="site-header"><a class="brand" href="index.html">Les Gauchistes<span class="brand-mark">✳</span></a><nav class="nav" aria-label="Navigation principale"><a href="index.html" data-i18n="navHome">Accueil</a><a href="about.html" data-i18n="navAbout">À propos</a><a class="active" href="contact.html" data-i18n="navContact">Contact</a><label class="language"><span class="sr-only" data-i18n="languageLabel">Langue</span><select id="language-select" aria-label="Language"><option value="fr">FR</option><option value="en">EN</option><option value="pl">PL</option><option value="es">ES</option><option value="pt">PT</option></select></label></nav></header>
-<main class="inner-page contact-page"><div class="contact-intro"><p class="eyebrow" data-i18n="contactEyebrow">Parlons-en</p><h1 data-i18n="contactTitle">Contactez-nous</h1><p class="contact-lead" data-i18n="contactBody">Pour toute question, veuillez nous écrire à l'adresse e-mail indiquée.</p></div><form id="contact-form" class="contact-form"><label><span data-i18n="nameLabel">Votre nom</span><input name="name" autocomplete="name" required></label><label><span data-i18n="emailLabel">Votre e-mail</span><input name="email" type="email" autocomplete="email" required></label><label><span data-i18n="productLabel">Produit(s) souhaité(s)</span><select name="products" id="contact-products" multiple size="4"></select><small data-i18n="productHint">Maintenez Ctrl (ou ⌘) pour sélectionner plusieurs produits.</small></label><label><span data-i18n="messageLabel">Votre message</span><textarea name="message" rows="5" required></textarea></label><button class="button" type="submit" data-i18n="copyMessage">Copier le message</button><p id="form-status" class="form-status" role="status"></p><p class="form-note" data-i18n="formNote">Copiez votre demande et envoyez-la à l'adresse e-mail de contact.</p></form></main>
-<footer class="site-footer"><div class="footer-top"><a class="brand" href="index.html">Les Gauchistes<span class="brand-mark">✳</span></a><p data-i18n="footerCopy">Veuillez sélectionner les produits que vous souhaitez acheter et nous envoyer un message à l'adresse e-mail indiquée.</p><a class="footer-contact" href="contact.html" data-i18n="navContact">Contact</a></div><div class="footer-bottom"><span>© 2026 Les Gauchistes</span><div><a href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html" data-i18n="navContact">Contact</a></div><span data-i18n="footerNote">Fait pour les temps agités.</span></div></footer></body></html>
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111110">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Contact — Les Gauchistes</title>
+</head>
+
+<body data-page="contact">
+    <header class="site-header"><a class="brand" data-i18n="siteName" href="index.html">pour les manifestants</a>
+        <nav class="nav" aria-label="Navigation principale"><a href="index.html" data-i18n="navHome">Accueil</a><a
+                href="about.html" data-i18n="navAbout">À propos</a><a class="active" href="contact.html"
+                data-i18n="navContact">Contact</a><label class="language"><span class="sr-only"
+                    data-i18n="languageLabel">Langue</span><select id="language-select" aria-label="Language">
+                    <option value="fr">FR</option>
+                    <option value="en">EN</option>
+                    <option value="pl">PL</option>
+                    <option value="es">ES</option>
+                    <option value="pt">PT</option>
+                </select></label></nav>
+    </header>
+    <main class="inner-page contact-page">
+        <section class="manifesto">
+            <p><a id="contactEmail" href="mailto:lescasseurs@proton.me">lescasseurs@proton.me</a></p>
+            <p data-i18n="footerCopy"></p>
+        </section>
+
+    </main>
+    <footer class="site-footer" id="contactFooter">
+        <div class="footer-bottom">
+            <div><a href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html"
+                    data-i18n="navContact">Contact</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>

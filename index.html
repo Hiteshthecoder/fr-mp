@@ -6,21 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111110">
   <meta name="description" content="Les Gauchistes — une collection de matériel de protestation.">
+  <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="dev_images/">
   <link rel="preload" as="image" href="dev_images/access_key.jpg">
   <link rel="preload" as="image" href="dev_images/glasses.jpg">
   <link rel="preload" as="image" href="dev_images/mask.jpg">
-  <link rel="preload" as="image" href="dev_images/opener.jpg">
-  <link rel="preload" as="image" href="dev_images/smoke_gr.jpg">
+  <link rel="preload" as="image" href="dev_images/rescue_spears.jpg
+  <link rel=" preload" as="image" href="dev_images/smoke_gr.jpg">
   <link rel="preload" as="image" href="dev_images/suit.jpg">
   <link rel="preload" as="image" href="dev_images/tear_gas.jpg">
-  <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
   <title>Les Gauchistes — Accueil</title>
 </head>
 
 <body data-page="home">
-  <header class="site-header"><a class="brand" href="index.html">Les Gauchistes<span class="brand-mark">✳</span></a>
+  <header class="site-header"><a class="brand" data-i18n="siteName" href="index.html">pour les manifestants</a>
     <nav class="nav" aria-label="Navigation principale"><a class="active" href="index.html"
         data-i18n="navHome">Accueil</a><a href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html"
         data-i18n="navContact">Contact</a><label class="language"><span class="sr-only"
@@ -33,40 +33,28 @@
         </select></label></nav>
   </header>
   <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <p class="eyebrow" data-i18n="eyebrow">Objets pour les temps agités</p>
-        <h1 data-i18n="heroTitle">Le monde nouveau<br>ne se demande pas.</h1>
-        <p class="hero-copy" data-i18n="heroCopy">Une collection pour celles et ceux qui refusent de détourner le
-          regard.</p><a class="text-link" href="#collection" data-i18n="discover">Découvrir la collection
-          <span>↓</span></a>
-      </div>
-      <div class="hero-stamp" aria-hidden="true"><span>LA RUE</span><b>✳</b><span>NOUS APPARTIENT</span></div>
-    </section>
-    <section class="collection section-wrap" id="collection">
+    <div class="headingContainer">
+      <h1 data-i18n="siteTagLine">L'heure de la révolution est arrivée</h1>
+    </div>
+    <section class="section-wrap" id="collection">
       <div class="section-heading">
         <div>
-          <p class="eyebrow" data-i18n="collectionEyebrow">La sélection</p>
           <h2 data-i18n="collectionTitle">La collection</h2>
         </div>
-        <p data-i18n="collectionNote">7 objets · prix temporaire</p>
       </div>
       <div class="product-grid" id="product-grid"></div>
     </section>
     <section class="manifesto">
-      <p class="eyebrow" data-i18n="manifestoEyebrow">Pas de retour en arrière</p>
-      <p data-i18n="manifesto">Le changement ne s’attend pas. Il se construit, ensemble, dans la rue et au-delà.</p><a
-        href="about.html" class="text-link" data-i18n="learnMore">En savoir plus <span>↗</span></a>
+      <p><a id="contactEmail" href="mailto:lescasseurs@proton.me">lescasseurs@proton.me</a></p>
+      <p data-i18n="footerCopy"></p><a href="about.html" class="text-link" data-i18n="learnMore">En savoir plus
+        <span>↗</span></a>
     </section>
   </main>
   <footer class="site-footer">
-    <div class="footer-top"><a class="brand" href="index.html">Les Gauchistes<span class="brand-mark">✳</span></a>
-      <p data-i18n="footerCopy">Veuillez sélectionner les produits que vous souhaitez acheter et nous envoyer un message
-        à l'adresse e-mail indiquée.</p><a class="footer-contact" href="contact.html" data-i18n="navContact">Contact</a>
-    </div>
-    <div class="footer-bottom"><span>© 2026 Les Gauchistes</span>
+
+    <div class="footer-bottom">
       <div><a href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html"
-          data-i18n="navContact">Contact</a></div><span data-i18n="footerNote">Fait pour les temps agités.</span>
+          data-i18n="navContact">Contact</a></div>
     </div>
   </footer>
 </body>
